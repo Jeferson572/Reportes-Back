@@ -7,9 +7,27 @@
 - ExcelJS (para la generación de reportes en formato Excel)
 - dotenv (manejo de variables de entorno)
 
+## Configuración 
+
+Clonar repositodrio: 
+git clone https://...
+cd Reportes-Trans
+npm intall
+
+## Conexion a PostgresSQL
+env:
+PGHOST=localhost
+PGUSER=postgres
+PGPASSWORD=tu_password
+PGDATABASE=reportes_db
+PGPORT=0000
+
+## Ejecutar el backend
+npm start
+
 ## Estructura del proyecto
 
-Reportes-Trans/
+```Reportes-Trans/
 ├── backend/
 │   ├── src/
 │   │   ├── server.js        # Punto de entrada del backend
@@ -27,21 +45,3 @@ Reportes-Trans/
 │   └── package.json
 │
 └── README.md
-
-## Configuración 
-
-Clonar repositodrio: 
--git clone https://...
--cd Reportes-Trans
--npm intall
-
-## Conexion a PostgresSQL
-.env:
--PGHOST=localhost
--PGUSER=postgres
--PGPASSWORD=tu_password
--PGDATABASE=reportes_db
--PGPORT=0000
-
-## Ejecutar el backend
--npm start
