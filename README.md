@@ -27,9 +27,10 @@ npm start
 
 ## Estructura del proyecto
 
-```Reportes-Trans/
-├── backend/
-│   ├── src/
+```bash
+Reportes-Trans/
+├──node_modules
+├── ── src/
 │   │   ├── server.js        # Punto de entrada del backend
 │   │   ├── app.js           # Configuración de Express y middlewares
 │   │   ├── routes/          # Rutas API (ej: test, reportes)
