@@ -10,17 +10,17 @@
 ## Configuración 
 
 Clonar repositodrio: 
-git clone https://...
-cd Reportes-Trans
-npm intall
+- git clone https://...
+- cd Reportes-Trans
+- npm intall
 
 ## Conexion a PostgresSQL
 env:
-PGHOST=localhost
-PGUSER=postgres
-PGPASSWORD=tu_password
-PGDATABASE=reportes_db
-PGPORT=0000
+- PGHOST=localhost
+- PGUSER=postgres
+- PGPASSWORD=tu_password
+- PGDATABASE=reportes_db
+- PGPORT=0000
 
 ## Ejecutar el backend
 npm start
